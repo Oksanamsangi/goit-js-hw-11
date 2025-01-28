@@ -5,7 +5,6 @@ export function getImages(userInputValue) {
     image_type: 'photo',
     orientation: 'horizontal',
     safesearch: true,
-    per_page: 200,
   });
 
   return fetch(`https://pixabay.com/api/?${searchParams}`).then(response => {
