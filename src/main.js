@@ -3,6 +3,7 @@ import 'izitoast/dist/css/iziToast.min.css';
 import { getImages } from './js/pixabay-api';
 import { renderGallery } from './js/render-functions';
 import { gallery } from './js/render-functions';
+import xmarkSvg from '../assets/xmark.svg';
 
 const searchForm = document.querySelector('.search-form');
 const loader = document.querySelector('.loader');
